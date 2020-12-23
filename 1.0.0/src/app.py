@@ -36,7 +36,7 @@ class Vedio(AppBase):
         # browser.execute_script("document.body.style.zoom='0.5'")#缩放0.5
         browser.set_window_size(1920, 1080)
         browser.maximize_window()
-        browser.find_element_by_xpath("/html/body/div/button/span").click()
+        browser.find_element_by_xpath("/html/body/div/button").click()
         time.sleep(TIME)
         browser.quit()
         return "vedio"
