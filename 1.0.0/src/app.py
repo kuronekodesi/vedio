@@ -23,7 +23,7 @@ class Vedio(AppBase):
             "profile.content_settings.plugin_whitelist.adobe-flash-player": 1,
             "profile.content_settings.exceptions.plugins.*,*.per_resource.adobe-flash-player": 1,
         }
-        opiton.add_experimental_option('prefs', prefs)
+        option.add_experimental_option('prefs', prefs)
         # option.add_argument('--user-data-dir=/Users/apple/Library/Application Support/Google/Chrome/Default')
         option.add_argument('--headless')
         option.add_argument('--no-sandbox')
